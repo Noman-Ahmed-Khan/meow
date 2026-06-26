@@ -58,9 +58,8 @@ public with sharing class AccountTriggerHandler {
     }
 
     /**
-     * Performs a partial-success DML insert and logs any failures.
      *
-     * @param records List of SObjects to insert
+     * @param records List of SObjects to 
      * @param objectLabel Label used in error messages for identification
      */
     private void insertRecords(List<SObject> records, String objectLabel) {
