@@ -16,9 +16,7 @@ public class TestDataFactory {
         for (Integer i = 0; i < count; i++) {
             accounts.add(new Account(Name = 'Test Account ' + i));
         }
-        if (doInsert) {
-            insert accounts;
-        }
+        if (doInsert) { insert accounts; }
         return accounts;
     }
 }
