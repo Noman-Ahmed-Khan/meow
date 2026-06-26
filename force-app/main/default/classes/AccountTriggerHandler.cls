@@ -58,7 +58,6 @@ public with sharing class AccountTriggerHandler {
     }
 
     /**
-     * Performs a  DML insert and logs any per-record failures.
      *
      * @param records List of SObjects to 
      * @param objectLabel Label used in error messages for identification
